@@ -8,7 +8,7 @@ import trio
 import typer
 
 from .node import NodeStartupInfo, start_node_once
-from .phase2 import (
+from .transfer import (
     DEFAULT_CHUNK_SIZE,
     download_file,
     resolve_manifest_by_file_hash,
